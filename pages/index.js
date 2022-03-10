@@ -27,7 +27,7 @@ const Page = () => {
             p={3} 
             mb={6} 
             textAlign="center">
-                Nice to meet you! I am Tim.
+                Hello!&nbsp;Nice to meet you!&nbsp;I&apos;m Tim.
             </Box>
 
             <Box display={{ md: 'flex'}}>
@@ -35,7 +35,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                     Lai-ting, Kao &nbsp;|&nbsp; Tim
                     </Heading>
-        <p>Engineer/Software developer/Photographer</p>
+        <p>SemiCon Engineer/Software developer/Photographer</p>
                 </Box>
              <Box 
                   flexShrink={0}
@@ -64,16 +64,16 @@ const Page = () => {
             </Box>
             </Box>
 
-        <Section delay = {0.1} >
+        <Section delay = {0.2} >
             <Heading as="h3" variant="section-title">
             Work &amp; Academic Background<p/>
             </Heading>
             <Paragraph>
             &nbsp;
-            <p/>Field Service Engineer - Lam Research<p/>
-            Mandatory Army - Taipei City Government<p/> 
-            BSc - National Taipei University of Technology(NTUT), Taipei<p/>
-            Ex. Student - Shibaura Institute of Technology(SIT), Tokyo
+            <p/>Field Service Engineer at Lam Research<p/>
+            Mandatory Army at Taipei City Government<p/> 
+            BSc at National Taipei University of Technology(NTUT), Taipei<p/>
+            Ex. Student at Shibaura Institute of Technology(SIT), Tokyo
                 </Paragraph>
             <Box align="center" my={8}>
                 <NextLink href="/works">
@@ -83,7 +83,7 @@ const Page = () => {
             </NextLink>
             </Box>
         </Section>
-      <Section delay={0.2}>
+      <Section delay={0.3}>
         <Heading as="h3" variant="section-titile">
         Bio
         </Heading>
@@ -93,21 +93,41 @@ const Page = () => {
       </BioSection>
       <BioSection>
         <BioYear>2018 </BioYear>
-        Completed Exchange program at SIT
+        Completed exchange program at SIT 
       </BioSection>
       <BioSection>
         <BioYear>2019 </BioYear>
-        Completed Bachlor degree at NTUT
+        Completed bachlor&apos;s degree of materials engineering at NTUT
+      </BioSection>
+      <BioSection>
+        <BioYear>2019 </BioYear>
+        Completed military service at Taipie City Government 
       </BioSection>
       <BioSection>
         <BioYear>2020 </BioYear>
         Worked at Lam Research
       </BioSection>
+      <BioSection>
+        <BioYear>2021 </BioYear>
+        Started computer science credit course at NTUT
+      </BioSection>
     </Section>
-    <Section delay={0.2}>
+    <Section delay={0.3}>
         <Heading as="h3" variant="section-titile">
-        I LOVE
+        About this website
         </Heading>
+        <Paragraph>
+        <p/>There are some cool features here:
+        <p/>- A playable blender animation on the top of the page.
+        <p/>- A switch between Light &amp; Dark mode.
+        <p/>- A NavBar that you could navigate through the site.
+        <p/>- A work display section. (under construction)
+        <p/>Hope you would like it!
+        <p/>(Thanks “devaslife” for code suggestion)
+        <p/>
+        &nbsp;<p/>This site is deployed through Vercel.com from Github.
+        <p/>Written in Next.js, Chakra UI, Three.js and React.js.<p/>
+        </Paragraph>
         </Section>
 </Container>
 </Layout>
