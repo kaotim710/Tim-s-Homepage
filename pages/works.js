@@ -15,8 +15,8 @@ const Works = () =>{
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
-                 <WorkGridItem id="sample1" title="Sample1" thumbnail={thumbInkdrop}>
-                  A markdown note-taking app
+                 <WorkGridItem id="sample1" title="Message Catcher" thumbnail={thumbInkdrop}>
+                  (Coming Soon)&nbsp;A message filter using Line&apos;s API to block out junk messages.
                  </WorkGridItem>
                 </Section>
             </SimpleGrid>    

@@ -10,8 +10,8 @@ import{ Box,
 const NotFound = () => {
     return (
         <Container>
-            <Heading as = "h1"> Not Found </Heading>
-        <Text>The page you&apos;re looking for was not found.</Text>
+            <Heading as = "h1"> Oops! </Heading>
+        <Text>This page is under construction. <p>Please come back later!</p></Text>
         <Divider my ={6}/>
 
         <Box my={6} align="center">
