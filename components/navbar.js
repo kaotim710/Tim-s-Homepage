@@ -93,12 +93,9 @@ const Navbar = props => {
             <NextLink href="/works" passHref>
                 <MenuItem as={Link}>Works</MenuItem>
             </NextLink>
-            <NextLink href="/posts" passHref>
-                <MenuItem as={Link}>Posts</MenuItem>
-            </NextLink>
             <MenuItem
                 as={Link}
-                href="http://www.google.com"
+                href="https://github.com/kaotim710/Tim-s-Homepage"
                 >        
                 View Source
             </MenuItem>
