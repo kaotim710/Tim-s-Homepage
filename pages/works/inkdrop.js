@@ -9,7 +9,7 @@ const Work = () =>{
         <Layout title="Inkdrop">
             <Container>
             <Title>
-            Inkfrop <Badge>2016</Badge>
+            Inkdrop <Badge>2016</Badge>
         </Title>
         <P>
         A markdown note-taking app with
