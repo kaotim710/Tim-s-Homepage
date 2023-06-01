@@ -75,7 +75,7 @@ const VoxelDog = () =>{
             controls.target = target
             setControls(controls)
 
-            loadGLTFModel(scene, '/animal_crossing_house.glb', {
+            loadGLTFModel(scene, '/untitled.glb', {
                 receiveShadow: false,
                 castShadow: false
             }).then(()=>{
